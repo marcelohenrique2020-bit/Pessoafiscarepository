@@ -6,5 +6,8 @@ import java.util.List;
 
 public interface PessoasFísicasServiços {
 
-    public List<PessoaFísica> buscartodos();
+     List<PessoaFísica> buscartodos();
+
+     PessoaFísica buscarPorId(Long id);
+
 }
